@@ -1,0 +1,149 @@
+/*==================== HEADER ====================-*/
+
+.header{
+    background-image: url('../img/Mask\ Group.png');
+    background-color: #0C1727;
+    min-height: 1129px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.nav{
+    &__container {
+    display:flex;
+    justify-content:space-between;
+    
+    }
+    &__logo{
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: #fff;
+        padding: 2rem 0 0 3.5rem;
+
+    }
+    &__menu{
+        flex-basis: 70%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2.5rem;
+
+
+    }
+    &__list{
+        display: flex;
+        flex-direction: row;
+        column-gap: 1.5rem;
+        &-login{
+            display: flex;
+            flex-direction: row;
+            column-gap: 1.5rem;
+
+        } 
+
+    }
+
+    &__item{
+
+
+    }
+    &__link{
+        color: #858A92;
+    }
+
+    
+}
+
+.active-link{
+    color: #fff;
+    }
+
+.button{
+    box-sizing: border-box;
+    
+    &-primary {
+        background-color: #fff;
+        color:black;
+        padding: 15px;
+        border-radius: 20px;
+
+    }
+
+    &-email {
+        background: #FFFFFF;
+        border-radius: 30px;
+        color:black;
+        padding: 15px;
+        border-radius: 20px;
+    }
+}
+
+
+.home {
+    &__content{
+        text-align: center;
+    }
+
+    &__title  {
+        margin-top: 200px;
+        // font-family: 'HK Grotesk';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 90px;
+        line-height: 108px;
+        text-align: center;
+        letter-spacing: -0.05em;
+
+        background: linear-gradient(85.99deg, #E17761 -2.43%, #FD88CE 61.98%, #FBB464 103.33%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    &__checker{
+        display: inline-flex;
+        margin-top: 20px;
+        &__point{
+            font-family: 'HK Grotesk';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+            margin-right: 20px;
+        }
+    }
+    &__email {
+        position: relative;
+        margin-top: 100px;
+       
+        & form {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%)
+       }
+
+        &__control {
+            width: 420px;
+            height: 54px;
+            border: 2px solid #2E3845;
+            border-radius: 30px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 50px;
+            color: #616973;
+            padding-left: 25px;
+            background: none;
+        }
+
+        & a {
+            position: absolute;
+            right: 5px;
+        }
+    }
+
+}

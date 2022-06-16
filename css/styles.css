@@ -1,0 +1,164 @@
+/*==================== HEADER ====================-*/
+.header {
+  background-image: url("../img/Mask Group.png");
+  background-color: #0C1727;
+  min-height: 1129px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__logo {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #fff;
+  padding: 2rem 0 0 3.5rem;
+}
+.nav__menu {
+  flex-basis: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+}
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1.5rem;
+}
+.nav__list-login {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1.5rem;
+}
+.nav__link {
+  color: #858A92;
+}
+
+.active-link {
+  color: #fff;
+}
+
+.button {
+  box-sizing: border-box;
+}
+.button-primary {
+  background-color: #fff;
+  color: black;
+  padding: 15px;
+  border-radius: 20px;
+}
+.button-email {
+  background: #FFFFFF;
+  border-radius: 30px;
+  color: black;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.home__content {
+  text-align: center;
+}
+.home__title {
+  margin-top: 200px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 108px;
+  text-align: center;
+  letter-spacing: -0.05em;
+  background: linear-gradient(85.99deg, #E17761 -2.43%, #FD88CE 61.98%, #FBB464 103.33%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.home__checker {
+  display: inline-flex;
+  margin-top: 20px;
+}
+.home__checker__point {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  margin-right: 20px;
+}
+.home__email {
+  position: relative;
+  margin-top: 100px;
+}
+.home__email form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.home__email__control {
+  width: 420px;
+  height: 54px;
+  border: 2px solid #2E3845;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 50px;
+  color: #616973;
+  padding-left: 25px;
+  background: none;
+}
+.home__email a {
+  position: absolute;
+  right: 5px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+  font-size: large;
+}
+
+body {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+h1, h2, h3 {
+  color: black;
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
