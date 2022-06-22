@@ -255,6 +255,205 @@
   color: #6C737D;
 }
 
+/****===============CARD==================**/
+.card__title {
+  font-size: 75px;
+  text-align: center;
+  color: #000000;
+  background: #FFFFFF;
+  border-radius: 30px;
+  margin-top: 109px;
+  margin-bottom: 20px;
+}
+.card__description {
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.card__trial {
+  text-align: center;
+}
+.card__button {
+  width: 201px;
+  height: 58px;
+  background: #0C1727;
+  box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 124px;
+}
+.card__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+}
+.card__list-box {
+  flex-basis: 337px;
+  background: #0C1727;
+  border: 1px solid #686F79;
+  border-radius: 30px;
+  padding: 60px 55px 50px;
+  margin-bottom: 91px;
+  text-align: center;
+}
+.card__list-box i {
+  width: 60px;
+  height: 60px;
+  background: #61C0F1;
+  box-shadow: 0px 15px 30px rgba(5, 81, 120, 0.08);
+  font-size: 24px;
+  color: #FFFFFF;
+  border-radius: 100%;
+  margin-bottom: 88px;
+  line-height: 60px;
+  text-align: center;
+}
+.card__list-title {
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.card__list-description {
+  text-align: center;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: -0.06em;
+  color: #6C737D;
+}
+
+.store__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 160px;
+}
+.store__content-left-title {
+  margin-top: 90px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 89px;
+  letter-spacing: -0.06em;
+  color: #0C1727;
+}
+.store__content-left-description {
+  margin-bottom: 60px;
+}
+.store__content-left-img > img:first-child {
+  margin-right: 20px;
+}
+.store__content-right-img > img:first-child {
+  margin-right: 10px;
+}
+
+/**====================footer======================**/
+.footer {
+  background: #1E2833;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+  padding-top: 60px;
+  padding-bottom: 104px;
+}
+.footer__content-left-title {
+  .
+                    padding-top: 66px;
+  padding-bottom: 85px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+.footer__content-left-sub-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 26px;
+  /* or 81% */
+  color: #FFFFFF;
+  padding-bottom: 30px;
+}
+.footer__content-left-email {
+  padding-bottom: 120px;
+}
+.footer__content-left-email form {
+  position: relative;
+}
+.footer__content-left-email i {
+  background-color: #3AB7FE;
+  border-radius: 100%;
+  width: 51px;
+  height: 51px;
+  text-align: center;
+  line-height: 51px;
+  position: absolute;
+  right: 1px;
+}
+.footer__content-left-end {
+  display: flex;
+  column-gap: 41px;
+}
+.footer__content-left-end-title {
+  color: #FFFFFF;
+  font-size: 15px;
+}
+.footer__content-right-head {
+  display: flex;
+  column-gap: 87px;
+}
+.footer__content-right-title {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+  color: #FFFFFF;
+}
+.footer__content-right-button {
+  width: 201px;
+  height: 58px;
+  background: #3AB7FE;
+  border-radius: 30px;
+  box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 82px;
+}
+.footer__content-right-list {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__content-right-list h2 {
+  background: linear-gradient(86.33deg, #445599 -5.37%, #757399 12.79%, #AD6FB8 28.42%, #D763BA 44.56%, #CD4F8B 58.18%, #B74777 68.26%, #C6405F 80.37%, #A2504D 91.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.footer__content-right-list-option {
+  margin-top: 10px;
+}
+.footer__content-right-list-option-link {
+  margin-top: 10px;
+  color: #D8D9DB;
+}
+.footer__content-right-icon {
+  color: #fff;
+  display: flex;
+  column-gap: 30px;
+  padding-top: 90px;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

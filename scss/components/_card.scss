@@ -1,0 +1,89 @@
+/****===============CARD==================**/
+
+.card{
+
+    &__container{
+
+    }
+    &__contant{
+
+    }
+    &__head{
+
+    }
+    &__title{
+        font-size: 75px;
+        text-align: center;
+        color: #000000;
+        background: #FFFFFF;
+        border-radius: 30px;
+        margin-top: 109px;
+        margin-bottom: 20px;
+    }
+    &__description{
+        font-style: normal;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    &__trial{
+        text-align: center;
+    }
+    &__button{
+        width: 201px;
+        height: 58px;
+        background: #0C1727;
+        box-shadow: 0px 30px 40px rgb(0 0 0 / 20%);
+        border-radius: 30px;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 124px;
+    }
+    &__list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;;
+        box-sizing: border-box;
+        // width: 337px;
+        // height: 335px;
+        &-box{
+            flex-basis: 337px;
+            background: #0C1727;
+            border: 1px solid #686F79;
+            border-radius: 30px;
+            padding: 60px 55px 50px;
+            margin-bottom: 91px;
+            text-align: center;
+
+            i {
+                width: 60px;
+                height: 60px;
+                background: #61C0F1;
+                box-shadow: 0px 15px 30px rgba(5, 81, 120, 0.08);
+                font-size: 24px;
+                color: #FFFFFF;
+                border-radius: 100%;
+                margin-bottom: 88px;
+                line-height: 60px;
+                text-align: center;
+            }
+
+        }
+        &-title{
+            text-align: center;
+            font-size: 18px;
+            line-height: 22px;
+            color: #FFFFFF;
+            margin-bottom: 16px;
+        }
+        &-description{
+            text-align: center;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            letter-spacing: -0.06em;
+            color: #6C737D;
+        }
+
+    }
+}

@@ -1,0 +1,58 @@
+//**********************store**********************//
+
+.store{
+
+    &__container{
+        
+
+    }
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 160px;
+        
+
+
+        &-left{
+            
+
+
+            &-word{
+                
+
+            }
+            &-title{
+                margin-top: 90px;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 74px;
+                line-height: 89px;
+                letter-spacing: -0.06em;
+                color: #0C1727;
+                
+            }
+            &-description{
+                margin-bottom: 60px;
+
+            }
+            &-img{
+                & > img:first-child  {
+                    margin-right: 20px;
+                }
+
+            }
+        }
+
+        &-right{
+
+            &-img{
+
+                & > img:first-child  {
+                    margin-right: 10px;
+                }
+            }
+        }
+
+    }
+    
+}
